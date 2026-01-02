@@ -10,7 +10,6 @@ SRC    := cpuid_features.c
 CC ?= clang
 CFLAGS_COMMON := -Wall -Wextra -Wpedantic
 CFLAGS_RELEASE := -O2
-CFLAGS_DEBUG   := -O0 -g3
 
 UNAME_S := $(shell uname -s)
 
